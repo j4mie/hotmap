@@ -44,9 +44,9 @@ class HotMap(object):
         and return a single value. After it has been decorated,
         the function will have an extra property called `wait`
         which is a function that, when called, blocks until an
-        item is received for processing. It then and then calls
-        the original function, passing in the value to be
-        processed. Example:
+        item is received for processing. It then calls the
+        original function, passing in the value to be processed,
+        and returns the result to the remote code. Example:
 
         >>> @mapper.worker
         ... def square(number):
