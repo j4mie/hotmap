@@ -1,6 +1,6 @@
 # HotMap
 
-**HotMap** is a proof-of-concept distributed computing framework for Python built on top of [Redis](http://redis.io) and
+**[HotMap](https://j4mie.github.com/hotmap)** is a proof-of-concept distributed computing framework for Python built on top of [Redis](http://redis.io) and
 [HotQueue](http://richardhenry.github.com/hotqueue/).
 
 **Author**: Jamie Matthews (<https://github.com/j4mie>)
